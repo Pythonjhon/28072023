@@ -1,0 +1,10 @@
+public class MisCuentas {
+    public static void main(String[] args) {
+    Cuenta miCuenta1 = new Cuenta();
+    Cuenta miCuenta2 = new Cuenta(6000);
+    System.out.print(″Limite cuenta 1 (normal): ″);
+    System.out.println(miCuenta1.getLimiteCredito());
+    System.out.print(″Limite cuenta 2 (vip): ″);
+    System.out.println(miCuenta2.getLimiteCredito());
+    }
+    }
